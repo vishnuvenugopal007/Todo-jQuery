@@ -25,8 +25,16 @@ ul {
   list-style: none;
 }
 
+.fa-plus-square {
+  float: right;
+}
+
 body {
   font-family: Roboto;
+  background: #77a1d3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #e684ae, #79cbca, #77a1d3);
+  background: -o-linear-gradient(left, #e684ae, #79cbca, #77a1d3);
+  background: linear-gradient(to right, #e684ae, #79cbca, #77a1d3);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 li {
